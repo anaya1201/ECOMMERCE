@@ -21,7 +21,7 @@ import {
       },
     });
   
-    localStorage.setItem("cartItems", JSON.stringify(getState().cart.cartItems));
+    localStorage.setItem("cartIems", JSON.stringify(getState().cart.cartItems));
   };
   
   // REMOVE FROM CART
